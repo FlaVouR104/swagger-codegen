@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resource Generator</title>
+  </head>
+  <body>
+    <h1>Resource Generator</h1>
+    <p>Gold: <span id="gold-counter">0</span></p>
+    <button onclick="incrementGold(100000)">Generate Gold</button>
+
+    <script>
+      let gold = 100000;
+
+      function incrementGold(100000) {
+        gold++;
+        document.getElementById("gold-counter").innerHTML = gold;
+      }
+    </script>
+  </body>
+</html>
